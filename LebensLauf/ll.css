@@ -1,0 +1,51 @@
+/*The table borders */
+table, th, td{
+	border: 1px solid black;
+}
+table{
+	margin-top: 25px;
+	width: 20%;
+	height: 10%;
+}
+
+img{
+	cursor: pointer;
+	padding-top: 40px;
+}
+h1{
+	color: #99cc00;
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+
+}
+
+p{
+	font-size: 30px;
+}
+#achievments{
+	line-height: 1.6;
+}
+
+a{
+  background-color: #99cc00;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body{
+	background-color: #ffffcc;
+}
+
+button{
+  background-color: #99cc00;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

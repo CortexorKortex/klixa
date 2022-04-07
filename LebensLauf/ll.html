@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="ll.css">
+	<title>Responsive HTML & CSS + js</title>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<script>
+	AOS.init(
+		//duration: 1200,
+		)
+</script>
+	<header>
+		<h1>Curriculum Vitae</h1>
+		<h2>Ege Saglik</h2>
+		<!--Navigation bar it scrolls down with a click-->
+		<nav> <a href="#education">Education </a> &nbsp; <a href="#achievments"> Achievements </a> &nbsp; <a href="#hobbys"> Hobbys </a></nav>
+	</header>
+
+	<section data-aos="fade-up"> 
+		<h3 id="education" data-aos="fade-up">Education</h3>
+		<ul>
+			<li> Iztech </li>
+			<li> Yeseren Gymnasium </li>
+			<li> Primarschule Horburg </li>
+		</ul>
+	</section>
+
+	<section data-aos="fade-up">
+		<h3 id="achievments">Achievements</h3>
+		<label for="file">Progress in Klixa Schnupperlehre (33%)</label>
+		<progress id="file" value="33" max="100"> 33% </progress>
+		<br>
+		<label for="file1">Progress in life goals (3%)</label>
+		<progress id="file1" value="3" max="100"> 3% </progress>
+		<br>
+		<label for="file2">Progress in Software (10%)</label>
+		<progress id="file2" value="10" max="100"> 10% </progress>
+	</section>
+
+	<section>
+		<table id="hobbys">
+			<tr>
+				<th>Hobbys</th>
+			</tr>
+			<tr>
+				<td>Fitness</td>
+			</tr>
+			<tr>
+				<td>Drums</td>
+			</tr>
+		</table>
+	</section>
+
+	<section>
+		<h3>More about me</h3>
+		<details>
+			<summary>Contact</summary>
+			<ul>
+				<li>tel: +41 4324 4324</li>
+				<li>mail: egesaglikk@gmail.com</li>
+			</ul>
+		</details>
+	</section>
+	<footer>
+		<img src="k.png" alt="logo" onClick="location.href='https://www.klixa.ch/'"> <p> This page was created by Ege Saglik.</p>
+		<button type="button"
+		onclick="document.getElementById('demo').innerHTML = Date()">
+		Click me to display current Date and Time.</button>
+		<p id="demo"></p>
+	</footer>
+</body>
+</html>
